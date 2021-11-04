@@ -1,24 +1,22 @@
-# rick-and-morty
+# Rick & Morty API implementation whit Vue.js
 
-## Project setup
-```
-npm install
-```
+## Live Demo: [Link a la App en Netlify](https://****.netlify.app/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- Learning Vue.js with this proyect
+- done in 3 days
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Funcionality
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Search a Ryck & Morty character to know more details and have fun
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## External Libraries
+
+- [bootstrap-vue]^2.21.2
+- [axios]^0.24.0
+
+## Instalation
+
+```
+$ cd cd rick-and-morty
+$ npm install
+```
