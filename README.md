@@ -1,6 +1,6 @@
 # Rick & Morty API implementation whit Vue.js
 
-## Live Demo: [Link a la App en Netlify](https://https://rick-and-morty-api-vue-js.netlify.app/)
+## Live Demo: [Link to the App in Netlify](https://https://rick-and-morty-api-vue-js.netlify.app/)
 
 - Learning Vue.js with this proyect
 - done in 3 days
