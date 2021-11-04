@@ -14,7 +14,9 @@
         </b-col>
 
         <b-col>
-          <b-button v-on:click="searchData" variant="success">Search</b-button>
+          <b-button v-on:click="searchData" variant="dark cardButton"
+            >Search</b-button
+          >
         </b-col>
       </b-row>
     </b-container>
@@ -29,13 +31,14 @@
         <b-card
           style="max-width: 20rem"
           class="text-center"
-          bg-variant="success"
+          bg-variant="dark"
           text-variant="white"
         >
           <b-card-img v-bind:src="character.image" alt="image character.name" />
-          <b-card-title class="fs-3">{{ character.name }}</b-card-title>
+          <b-card-title class="fs-2 mb-3">{{ character.name }}</b-card-title>
           <b-button
             href="#"
+            class="cardButton"
             variant="dark"
             v-on:click="openDetail(character.id)"
             v-b-modal.modal-1
@@ -46,11 +49,17 @@
     </div>
 
     <nav class="container-pagination" role="navigation" aria-label="pagination">
-      <b-button v-on:click="changePage(page - 1)" variant="success"
+      <b-button
+        v-on:click="changePage(page - 1)"
+        variant="dark"
+        class="cardButton"
         >before</b-button
       >
       <h6 class="number-page">{{ page }}</h6>
-      <b-button v-on:click="changePage(page + 1)" variant="success"
+      <b-button
+        v-on:click="changePage(page + 1)"
+        variant="dark"
+        class="cardButton"
         >next</b-button
       >
     </nav>
